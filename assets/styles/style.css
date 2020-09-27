@@ -1,0 +1,65 @@
+body {
+    background-color: #111;
+    color: white;
+    overflow: hidden;
+}
+#preloader {
+    background-color: #000;
+    background-image: url(/assets/images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+@keyframes fade-out {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+#preloader.loaded {
+    animation: fade-out .5s;
+    opacity: 0;
+    pointer-events: none;
+}
+.slider {
+    position: fixed;
+    right: 0;
+    user-select: none;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider > button {
+    color: transparent;
+    display: block;
+    margin: 30px 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    box-sizing: border-box;
+    background-color: #333;
+}
+.slider > button[disabled] {
+    background-color: white;
+}
+.slider > button:first-child, .slider > button:last-child {
+    display: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
