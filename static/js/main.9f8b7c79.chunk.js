@@ -1,0 +1,2 @@
+(this["webpackJsonplordriyan.github.io-source"]=this["webpackJsonplordriyan.github.io-source"]||[]).push([[0],{9:function(e,t,n){"use strict";n.r(t);var r=n(1),c=n.n(r),i=n(3),o=n.n(i),s=n(0);function d(){return Object(s.jsx)("div",{children:Object(s.jsx)("h1",{children:"Under Development :("})})}o.a.render(Object(s.jsx)(c.a.StrictMode,{children:Object(s.jsx)(d,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.9f8b7c79.chunk.js.map
